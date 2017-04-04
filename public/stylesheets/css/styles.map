@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "../sass/styles.css",
+	"sources": [
+		"../sass/styles.sass",
+		"../sass/_main.sass"
+	],
+	"sourcesContent": [
+		"@import '_main.sass';\n",
+		"main {\n\tmargin: 0 auto; }\n"
+	],
+	"mappings": ";ACAA,AAAA,IAAI,CAAC;EACJ,MAAM,EAAE,MAAO;CAAG",
+	"names": []
+}
