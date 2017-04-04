@@ -2,16 +2,16 @@
   "Images": [
     {
       "title": "First Block",
-      "images": ["url1", "url2", "url3"]
+      "images": ["../img/bijay.jpg", "../img/dance.jpg", "../img/ocean.jpg"]
     }, {
       "title": "Second Block",
-      "images": ["url7", "url8"]
+      "images": ["../img/fly.jpg", "../img/snowman.jpg"]
     }, {
       "title": "Third Block",
-      "images": ["url4", "url5", "url6"]
+      "images": ["../img/developer.jpg", "../img/purplesmoke.jpg", "../img/neon.jpg"]
     }, {
       "title": "Fourth Block",
-      "images": ["url9", "url10"]
+      "images": ["../img/northern.jpg", "../img/whiteflower.jpg"]
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "name": "carousel",
+  "description": "carousel made with pure js. shows random images provided by a local webserver",
+  "main": "app.js",
+  "authors": [
+    "Bijay Timilsina"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "javascript",
+    "express",
+    "html5",
+    "css3"
+  ],
+  "homepage": "https://github.com/bijay007/Carousel_vanillaJS",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.4.2",
+    "angular": "^1.6.4"
+  }
+}

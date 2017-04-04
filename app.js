@@ -7,6 +7,6 @@ const app = express()
 const routeImages = require('./server')
 
 app
-  .use('/', express.static(path.join(__dirname, 'public'))) // I used '/' to avoid adding client-side routing as it's literally 1 page app
-  .use('/images', routeImages)  // request endpoint
+  .use(express.static(path.join(__dirname, 'public')))
+  .use('/images', routeImages)  // request endpoint for image blocks
   .listen(PORT, () => console.log(`Listening on PORT ${PORT}...`))
