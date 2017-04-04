@@ -8,5 +8,6 @@ const routeImages = require('./server')
 
 app
   .use(express.static(path.join(__dirname, 'public')))
-  .use('/images', routeImages)  // request endpoint for image blocks
+  .use(express.static(path.join(__dirname, 'server/img')))
+  .use('/images', routeImages)
   .listen(PORT, () => console.log(`Listening on PORT ${PORT}...`))

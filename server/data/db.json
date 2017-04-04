@@ -2,16 +2,16 @@
   "Images": [
     {
       "title": "First Block",
-      "images": ["../img/bijay.jpg", "../img/dance.jpg", "../img/ocean.jpg"]
+      "images": ["server/img/bijay.jpg", "server/img/dance.png", "server/img/ocean.jpg"]
     }, {
       "title": "Second Block",
-      "images": ["../img/fly.jpg", "../img/snowman.jpg"]
+      "images": ["server/img/fly.jpg", "server/img/snowman.jpg"]
     }, {
       "title": "Third Block",
-      "images": ["../img/developer.jpg", "../img/purplesmoke.jpg", "../img/neon.jpg"]
+      "images": ["server/img/developer.jpg", "server/img/purplesmoke.jpg", "server/img/neon.jpg"]
     }, {
       "title": "Fourth Block",
-      "images": ["../img/northern.jpg", "../img/whiteflower.jpg"]
+      "images": ["server/img/northern.jpg", "server/img/whiteflower.jpg"]
     }
   ]
 }

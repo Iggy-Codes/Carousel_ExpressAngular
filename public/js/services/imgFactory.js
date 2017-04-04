@@ -7,7 +7,8 @@
     let reqMethods = { getImages }
 
     function getImages () {
-      return $http.get('/images/')
+      const url = `/images/`
+      return $http.get(url)
     }
     return reqMethods
   }
