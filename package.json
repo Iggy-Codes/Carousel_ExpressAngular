@@ -2,13 +2,15 @@
   "name": "carousel_vanillsjs",
   "version": "1.0.0",
   "description": "carousel made with pure js. shows random images provided by a local webserver",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prestart": "npm install",
+    "dev": "nodemon index",
+    "start": "node index"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bijay007/Carousel-vanillaJS.git"
+    "url": "git+https://github.com/bijay007/Carousel_vanillaJS.git"
   },
   "keywords": [
     "javascript",
@@ -19,9 +21,9 @@
   "author": "Bijay Timilsina",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bijay007/Carousel-vanillaJS/issues"
+    "url": "https://github.com/bijay007/Carousel_vanillaJS/issues"
   },
-  "homepage": "https://github.com/bijay007/Carousel-vanillaJS#readme",
+  "homepage": "https://github.com/bijay007/Carousel_vanillaJS#readme",
   "dependencies": {
     "express": "^4.15.2"
   },
