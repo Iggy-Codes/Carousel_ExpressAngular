@@ -1,10 +1,12 @@
 <main>
 	<button ng-click="vm.previous(-1)">Previous</a></button>
-	<button ng-click="vm.next(1)">Next</a></button>
-	<ul>
+	<ul id="slider">
 		<li ng-repeat="block in vm.blocks">
-			<img ng-src="{{vm.randImgIndex(block)}}">
-			<span>{{block.title}}</span>
+			<figure>
+				<img ng-src="{{vm.randImgIndex(block)}}">
+				<figcaption>{{block.title}}</figcaption>
+			</figure>
 		</li>
 	</ul>
+	<button ng-click="vm.next(1)">Next</a></button>
 </main>

@@ -16,8 +16,12 @@
     vm.randImgIndex = function (block) {
       return block.images[Math.floor(Math.random() * block.images.length)]
     }
+    function iterateImg (currentPos) {
+      if (currentPos > vm.blocks.length - 1) currentPos = 0
+      if (currentPos < 0) currentPos = vm.blocks.length - 1
+    }
 
-    vm.previous = function () {}
-    vm.next = function () {}
+    vm.previous = function (pos) { }
+    vm.next = function (pos) { }
   }
 })()
