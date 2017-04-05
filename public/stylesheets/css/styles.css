@@ -1,50 +1,5 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-main {
-  margin: 0 auto;
-  display: flex;
-  width: 700px;
-  height: 450px;
-  padding: 20px;
-  position: relative;
-}
-
-main figure {
-  align-self: stretch;
-}
-
-main figure img {
-  width: 650px;
-  height: 430px;
-  align-self: stretch;
-}
-
-main figure figcaption {
-  text-align: center;
-}
-
-main .btn {
-  height: 50px;
-  padding: 5px;
-  border: none;
-  background: inherit;
-  position: absolute;
-  align-self: center;
-  font-size: 25px;
-  color: #fff;
-}
-
-main .btn:hover {
-  font-size: 40px;
-}
-
-main .btnnext {
-  left: 635px;
-}
-
-main .btnprev {
-  left: 25px;
+  border: 1px solid red;
 }

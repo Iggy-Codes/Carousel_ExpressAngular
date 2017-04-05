@@ -1,8 +1,11 @@
 <main>
-	<button class="btn btnprev" ng-click="vm.previous(-1)">&#8678;</button>
-	<figure ng-repeat="block in vm.blocks">
-		<img ng-src="{{vm.randImgIndex(block)}}">
-		<figcaption>{{block.title}}</figcaption>
-	</figure>
-	<button class="btn btnnext" ng-click="vm.next(1)">&#8680;</button>
+	<h1>A simple Carrousel</h1>
+	<section>
+		<a href='' class="prev" ng-click="vm.controls($event,-1)">&#8678;</a>
+		<figure ng-model="vm.blocks[vm.indexBlock]">
+			<img ng-src="{{vm.randImgIndex(vm.blocks[vm.indexBlock])}}">
+			<figcaption>{{vm.blocks[vm.indexBlock].title}}</figcaption>
+		</figure>
+		<a href='' class="next" ng-click="vm.controls($event,1)">&#8680;</a>
+	</section>
 </main>
