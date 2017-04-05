@@ -1,12 +1,8 @@
 <main>
-	<button ng-click="vm.previous(-1)">Previous</a></button>
-	<ul id="slider">
-		<li ng-repeat="block in vm.blocks">
-			<figure>
-				<img ng-src="{{vm.randImgIndex(block)}}">
-				<figcaption>{{block.title}}</figcaption>
-			</figure>
-		</li>
-	</ul>
-	<button ng-click="vm.next(1)">Next</a></button>
+	<button class="btn btnprev" ng-click="vm.previous(-1)">&#8678;</button>
+	<figure ng-repeat="block in vm.blocks">
+		<img ng-src="{{vm.randImgIndex(block)}}">
+		<figcaption>{{block.title}}</figcaption>
+	</figure>
+	<button class="btn btnnext" ng-click="vm.next(1)">&#8680;</button>
 </main>

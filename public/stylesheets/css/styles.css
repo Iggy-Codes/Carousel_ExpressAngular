@@ -3,28 +3,48 @@
   padding: 0;
 }
 
-* #slider {
+main {
+  margin: 0 auto;
   display: flex;
-  list-style-type: none;
-  height: 400px;
-}
-
-* #slider li {
-  width: 25%;
+  width: 700px;
+  height: 450px;
+  padding: 20px;
   position: relative;
-  padding: 5px;
 }
 
-* #slider li figure {
-  position: absolute;
-  height: 100%;
+main figure {
+  align-self: stretch;
 }
 
-* #slider li figure img {
-  height: 100%;
-  width: 100%;
+main figure img {
+  width: 650px;
+  height: 430px;
+  align-self: stretch;
 }
 
-* #slider li figure figcaption {
+main figure figcaption {
   text-align: center;
+}
+
+main .btn {
+  height: 50px;
+  padding: 5px;
+  border: none;
+  background: inherit;
+  position: absolute;
+  align-self: center;
+  font-size: 25px;
+  color: #fff;
+}
+
+main .btn:hover {
+  font-size: 40px;
+}
+
+main .btnnext {
+  left: 635px;
+}
+
+main .btnprev {
+  left: 25px;
 }
