@@ -1,11 +1,10 @@
 <main>
-	<figure>
-		<img src="#" alt="">
-		<figcaption>From Block X</figcaption>
-	</figure>
+	<button ng-click="vm.previous(-1)">Previous</a></button>
+	<button ng-click="vm.next(1)">Next</a></button>
 	<ul>
-		<li ng-repeat="block in vm.blocks"><img ng-src="{{block.images[0]}}"></li>
+		<li ng-repeat="block in vm.blocks">
+			<img ng-src="{{vm.randImgIndex(block)}}">
+			<span>{{block.title}}</span>
+		</li>
 	</ul>
-	<button><a href="#">Previous</a></button>
-	<button><a href="#">Next</a></button>
 </main>
