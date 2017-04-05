@@ -4,7 +4,7 @@
   "description": "carousel made with pure js. shows random images provided by a local webserver",
   "main": "app.js",
   "scripts": {
-    "prestart": "npm install",
+    "prestart": "npm install && bower install",
     "start": "node app",
     "dev": "nodemon"
   },
