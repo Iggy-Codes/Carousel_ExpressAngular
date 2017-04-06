@@ -1,7 +1,8 @@
 
 # :dizzy: Carousel :dizzy:
 
-**A Fullstack Carousel Application build with ES6, HTML5, CSS3, AngularJS and ExpressJS**
+**A Fullstack Carousel Application build with ES6, HTML5, CSS3, AngularJS and ExpressJS**  
+*Part of the ***1 App = 2 Days*** challenge*
 
 ---
 
