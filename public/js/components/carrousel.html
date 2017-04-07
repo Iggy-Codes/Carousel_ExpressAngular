@@ -1,11 +1,14 @@
 <main>
 	<h1>&#9728; A simple Carrousel &#9728;</h1>
 	<section>
-		<a href='' class="goto" ng-click="vm.controls($event,-1)">&#8678;</a>
+		<a class="goto" ng-class="vm.disablePrev ? 'inactive' : 'goto'" ng-click="vm.controls($event,-1)">&#8678;</a>
+
+		<!-- image and caption -->
 		<figure ng-model="vm.blocks[vm.indexBlock]" class="fig">
 			<img ng-src="{{vm.randImgIndex(vm.blocks[vm.indexBlock])}}">
 			<figcaption>{{vm.blocks[vm.indexBlock].title}}</figcaption>
 		</figure>
-		<a href='' class="goto" ng-click="vm.controls($event,1)">&#8680;</a>
+
+		<a class="goto" ng-class="vm.disableNext ? 'inactive' : 'goto'" ng-click="vm.controls($event,1)">&#8680;</a>
 	</section>
 </main>

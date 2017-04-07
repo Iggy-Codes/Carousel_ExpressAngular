@@ -19,6 +19,7 @@ section
 		width: 650px
 		display: flex
 		flex-direction: column
+		padding: 5px
 		img
     		flex-shrink: 0
     		width: inherit
@@ -31,11 +32,16 @@ section
 			font-weight: bold
 			text-shadow: 1px 1px #f89
 	.goto
-		font-size: 30px
+		font-size: 35px
 		text-decoration: none
-		color: #fff
-		box-radius: 50%
-		background-color: #000
+		color: #f00
+	.inactive
+		cursor: none
+		pointer-events: none
+		color: #ccc
+		background-color: inherit
+		font-size: 35px
 	a:hover
 		font-size: 31px
 		color: #f23
+		cursor: pointer
